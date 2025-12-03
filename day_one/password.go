@@ -27,7 +27,7 @@ func CalculatePassword() {
 		if rotation == "L" {
 			position = position - amount
 
-			if position < 0 {
+			for position < 0 {
 				position = NUMBERS_IN_DIAL - utils.AbsInt(position)
 			}
 		}
@@ -35,7 +35,7 @@ func CalculatePassword() {
 		if rotation == "R" {
 			position = position + amount
 
-			if position >= 100 {
+			for position >= 100 {
 				position = position - NUMBERS_IN_DIAL
 			}
 		}
