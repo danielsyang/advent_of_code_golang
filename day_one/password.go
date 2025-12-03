@@ -1,4 +1,4 @@
-package day_one
+package dayone
 
 import (
 	utils "advent_of_code/utils"

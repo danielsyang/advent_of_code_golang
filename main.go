@@ -1,10 +1,14 @@
 package main
 
 import (
-	day_one "advent_of_code/day_one"
+	dayone "advent_of_code/day_one"
+	daytwo "advent_of_code/day_two"
 )
 
 func main() {
-	day_one.CalculatePassword()
-	day_one.CalculatePassword0x434C49434B()
+	dayone.CalculatePassword()
+	dayone.CalculatePassword0x434C49434B()
+
+	daytwo.GiftShop()
+	daytwo.GiftShopPartTwo()
 }
