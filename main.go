@@ -6,4 +6,5 @@ import (
 
 func main() {
 	day_one.CalculatePassword()
+	day_one.CalculatePassword0x434C49434B()
 }
